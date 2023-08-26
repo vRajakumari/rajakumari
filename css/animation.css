@@ -1,0 +1,25 @@
+#as{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-duration: 2s;
+    animation :rotate (360deg);
+    animation-name: change;
+}
+@keyframes change{
+    0%{
+        background-color: blueviolet;
+    }
+    0%{
+        background-color: rgb(226, 43, 43);
+    }
+    20%{
+        background-color: rgb(226, 43, 186);
+    }
+    70%{
+        background-color: rgb(43, 226, 98);
+    }
+    100%{
+        background-color: rgb(226, 131, 43);
+    }
+}

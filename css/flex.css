@@ -1,0 +1,35 @@
+.child{
+    box-shadow: 0 0 5px blue;
+    border-radius:5px;
+    width:300px;
+    padding:5px;
+}
+.child img{
+    width: 100%;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child h1::first-letter{
+    color: brown;
+}
+.child:nth-child(even){
+    height: 500px;
+    overflow: hidden;
+}
+.child:nth-child(3){
+    order: 3;
+}
+.child:nth-child(2){
+    order:3 ;
+}
+.child:nth-child(1){
+    order:1 ;
+}
+.child:nth-child(4){
+    order: 4;
+}

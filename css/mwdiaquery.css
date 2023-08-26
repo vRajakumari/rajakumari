@@ -1,0 +1,37 @@
+.child{
+    box-shadow: 0 0 5px blue;
+    border-radius:5px;
+    width:300px;
+    padding:5px;
+}
+.child img{
+    width: 100%;
+}
+.parent{
+    display: grid;
+    justify-content: center;
+}
+@media only screen and(min-width:480px)and(max-width:780px){
+    #para{
+        background-color: blue;
+    }
+    .parent{
+        grid-template-columns: repeat(2,50%);
+    }
+    }
+    @media only screen and(min-width:760px)and(max-width:1024px){
+        #para{
+            background-color: pink;
+        }
+        .parent{
+            grid-template-columns: repeat(2,50%);
+        }
+    }
+    @media only screen and(min-width:1024px){
+        #para{
+            background-color: black;
+        }
+        .parent{
+            grid-template-columns: repeat(3,30%);
+        }
+    }

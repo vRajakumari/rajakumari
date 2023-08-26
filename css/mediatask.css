@@ -1,0 +1,112 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.box1{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.task{
+    border: 20px solid orange;
+    background-color: orange;
+    margin: 5px;
+    height: 30px;
+}
+.mod{
+    border: 20px solid greenyellow;
+    background-color:greenyellow;
+    margin: 5px;
+    height: 200px;
+}
+.box2{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+}
+
+.task2{
+    border: 20px solid skyblue;
+    background-color: skyblue;
+    margin: 5px;
+    height: 120px;
+}
+.box3{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+.task3{
+    border: 20px solid grey;
+    background-color: grey;
+    margin: 5px;
+    height: 60px;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .box1{
+        grid-template-columns: repeat(1, 100%);
+    }
+    .task{
+        height: 3px;
+    }
+    .mod{
+        height: 10px;
+    }
+    .box2{
+        grid-template-columns: repeat(1, 100%);
+    }
+    .task2{
+        height: 120px;
+    }
+    .box3{
+        grid-template-columns: repeat(1, 100%);
+    }
+    .task3{
+        height: 3px;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .box1{
+        grid-template-columns: repeat(1, 100%);
+    }
+    .task{
+        height: 5px;
+    }
+    .mod {
+        height: 70px;
+    }
+    .box2 {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .task2{
+        height: 10px;
+    }
+
+    .box3{
+        grid-template-columns: repeat(2, 50%);
+    }
+    .task3{
+        height: 20px;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .box1{
+        grid-template-columns: repeat(2, 50%);
+    }
+    .task{
+        height: 30px;
+    }
+    .mod{
+        height: 200px;
+    }
+    .box2{
+        grid-template-columns: repeat(3, 33.3%);
+    }
+    .task2{
+        height: 120px;
+    }
+    .box3{
+        grid-template-columns: repeat(4, 25%);
+    }
+    .task3{
+        height: 60px;
+    }
+}

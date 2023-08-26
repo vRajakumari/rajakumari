@@ -1,0 +1,53 @@
+.parent p::first-line{
+    color:red;
+}
+.parent p::first-letter{
+    color:blue;
+}
+.parent p::before{
+    content:"**";
+}
+.parent p::after{
+    content:"**";
+}
+.parent button {
+    background-color:b;
+    border: none;
+    box-shadow: 0 0 5px blue;
+    }
+    .parent a111:active{
+        background-color:red;
+    }
+    .parent a:visited{
+        background-color:non;
+    }
+
+.parent a:hover{
+  background-color:yellow;
+}
+table tr td{
+    border: 1px solid gray;
+}
+table tr:nth-child(even){
+    background-color: brown;
+    color: bisque;
+}
+p{
+    color: blue;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-style:italic;
+    font-weight: 500;
+    text-align:left;
+    text-transform:uppercase;
+    text-decoration:underline;
+    white-space:nowrap;
+    width: 400px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    text-shadow:1px 2px 2px #999;
+}
+
+
+
+

@@ -1,0 +1,603 @@
+body{
+    margin: 0;
+} 
+.head{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #373837;
+    background-color:#373837;
+    padding-bottom: 100px;
+    position: relative;
+    z-index:999;
+}
+.sam{
+    width: 100%;
+    height: 100%;
+}
+.head0{
+    background-color: #373837;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 38% 15%;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    line-height: 1.2;
+}
+.head1 i {
+    color: #FEA116;
+    font-size: 2.5rem;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.head1 a {
+    color: #FEA116;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-family:"Nunito",sans-serif;
+    font-weight: 700;
+}
+.html2 a{
+    color: #f1f8ff;
+    text-transform: uppercase ;
+    padding: 10px;
+    font-family: "Heebo",sans-serif;
+    font-size: 15px;
+}
+.html2 a:hover{
+    color: #FEA116;
+}
+
+.head3 button {
+    background-color: #FEA116;
+    font-family: "Nunito",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-size: 15px;
+    padding-bottom: 15px ;
+    padding-right: 25px ;
+    padding-left: 25px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.head4{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #f1f8ff;
+    position: relative;
+}
+.head4 h1{
+    font-family:"Nunito",sans-serif;
+    font-size:50px ;
+    padding-left:20px ;
+    margin-top: 20%;
+    letter-spacing: 2px;
+}
+.head4 {
+    display: grid;
+    grid-template-columns: 50% 30%;
+    padding-top: 200px;
+}
+.head5 h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-family: "Nunito",sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+}
+.head5 p {
+   color: #fff;
+   font-size: 1rem;
+   font-family: "Heebo",sans-serif; 
+   font-weight: 400;
+}
+.head5 button{
+    background-color: #FEA116;
+    font-family: "Nunito",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    padding-right: 40px ;
+    padding-left: 40px;
+}
+.color{
+    padding-left: 60px;
+}
+.head7 {
+    background-color:white;
+    border: 2px solid #bbc0c5 ;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: center;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+.head8 i{
+    color: #FEA116 ;
+    font-size: 2.5rem;
+}
+.head8 i:hover{
+    color: #f1f8ff;
+}
+.head8:hover {
+    background-color: #FEA116;
+    color: #f1f8ff;
+}
+.head8 {
+    height: 213px;
+    width: 192px;
+    font-family: "Heebo",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.head10{
+    display: grid;
+    grid-template-columns: 15% 20%;
+    justify-content: space-around;
+}
+.head11 {
+    display: grid;
+    grid-template-columns: 15% 25%;
+    justify-content: space-around;
+}
+.head12 h3{
+    color: #f37f0a;
+}
+.head9{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#s1 {
+    padding-left:20px;
+    padding-bottom: 20px;
+    border-radius: 2px;
+}
+
+#s2 {
+     padding-right: 35px;
+    padding-bottom:0px;
+    margin-top: 45%;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+#s3 {
+    padding-left:95px;
+    border-radius: 2px;
+}
+#s4 {
+    padding-right: 30px;
+    border-radius: 2px;
+}
+.head12 h1{
+    margin-bottom: 1.5rem; 
+    font-size: 2.5rem;
+    font-family:  "Nunito",sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    padding-left: 20px;
+}
+.head12 p{
+    font-family: "Heebo",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 20px;
+}
+.head12 i{
+    color: #FEA116;
+    font-size: 2.5rem;
+}
+.apple1 {
+    color: #f37f0a;
+    font-size: 50px;
+    font-family: "Heebo",sans-serif;
+    padding-left: 25px;
+}
+.apple4 button{
+    background-color: #FEA116;
+    font-family: "Nunito",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+    padding-right: 27px ;
+    padding-left: 27px;
+}.html14 h5,h1 {
+    width: 100%;
+}
+.html14 h5 {
+    font-family: Pacifico, cursive;
+    color: #FEA116;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 100px;
+    margin-bottom: 0.5rem;
+}
+.html14 h5::before {
+    content: ------;
+}
+.html14 h5::after {
+    content: ------;
+}
+.html14 h1 {
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: 0;
+}
+.html15 {
+    display: grid;
+    grid-template-columns: repeat(6, 10%);
+    padding-left: 450px;
+}
+.html16 i {
+    color: #FEA116;
+    font-size: 2.5rem;
+}
+.html16 p {
+    color: #666565;
+}
+.html16 {
+    font-size: 1em;
+    padding-top: 15px;
+    line-height: 0;
+}
+.html18 {
+    display: grid;
+    grid-template-columns: 10% 30% 10% 30%;
+    box-sizing: border-box;
+}
+.html17 {
+    margin-left: 130px;
+}
+.html19 {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+}
+.html19 p {
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1;
+    color: #666565;
+    text-decoration: overline;
+}
+.html20 {
+    margin-left: 140px;
+    color: #FEA116;
+}
+.css21 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-sizing: border-box;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.css22 button {
+    position: absolute;
+    top: 200px;
+    right: 250px;
+    background-color: #FEA116;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 100px;
+}
+
+.css22 {
+    position: relative;
+}
+
+.css22 img {
+    width: 100%;
+    height: 500px;
+}
+
+.css23 {
+    background-color: #0F172B;
+    width: 700px;
+    height: 500px;
+}
+
+.css24 h4 {
+    font-family: Pacifico, cursive;
+    color: #FEA116;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+
+.css24 h1 {
+    color: #fff;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+.css241 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+
+.css243 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+
+.csssam {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666565;
+    padding-left: 85px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    margin-left: 15px;
+}
+
+.csssam1 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666565;
+    width: 85%;
+    padding-left: 55px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    margin-left: 15px;
+}
+
+.csssam2 button{
+    width: 95%;
+    background-color: #FEA116;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.head17{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.head20 {
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+}
+
+.head19 {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color:rgb(14, 13, 13);
+}
+    .head19  h4{
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+        font-weight: 800;
+        line-height: 1.2;
+        color:orange;
+}
+.head21 :hover{
+    background-color: #f37f0a;
+}
+
+.head16 h4 {
+    font-family: Pacifico, cursive;
+    color: #FEA116;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 100px;
+    margin-bottom: 0.5rem;
+}
+.head16 h1 {
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.head21{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
+}
+
+.head22 {
+    border-radius: 2px;
+    border: 1px solid #dee2e6;
+    padding-left: 20px;
+}
+
+.head22 p {
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+}
+
+.head22 small {
+    font-size: 2em;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #FEA116;
+}
+
+.head24 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 70px;
+}
+
+.head24 p {
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+    text-transform: capitalize;
+    text-align: left;
+
+}
+
+.head24 h4 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+    text-transform: capitalize;
+    
+}
+
+.head25 {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    justify-content: space-evenly;
+    background-color: #343a40;
+    color: #F1F8FF;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.head26 h3 {
+    font-family: pacifico, cursive;
+    color: #FEA116;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.head26 p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.head26 a {
+    color: #fff;
+}
+
+.head29 {
+    border: 1px solid #fff;
+    border-radius: 9px;
+    font-size: 2rem;
+}
+
+.head27 {
+    display: grid;
+    grid-template-columns: 10% 50%;
+}
+
+.head28 {
+    padding-top: 15px;
+}
+
+.head26 button {
+    background-color: #FEA116;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.css42 {
+    display: grid;
+    grid-template-columns: 60% 35%;
+    background-color: #3e3f42;
+    justify-content: space-evenly;
+    padding:50px ;
+    padding-right: 10px;
+    color: #F1F8FF;
+}
+
+input[type=email] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.head31 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #343a40;
+    padding: 50px;
+    padding-right: 10px;
+    color: #fff;
+    border-top: 1px solid #F1F8FF;
+}
+
+.css45 p {
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 20px;
+    }
+
+.css47 {
+    counter-reset: white;
+    text-transform: capitalize;
+    padding-left: 345px;
+    text-align:none;
+    }
+
+.css46 {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #FEA116;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.a1{
+    padding-top: 10px;
+}

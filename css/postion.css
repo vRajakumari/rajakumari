@@ -1,0 +1,39 @@
+#heading{
+    position: fixed;
+    background-color: blue;
+    color: brown;
+    width: 100%;
+    top: 0;
+}
+#eading+p{
+    margin-top: 30px;
+    
+}
+#sticky{
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+#chat{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 20px;
+}
+.chair{
+      position: relative;
+      width: 300px;
+}
+.chair img{
+    width: 100%;
+    filter: drop-shadow(2px 4px 6px blue);
+}
+.chair button{
+    position:absolute ;
+    top: 0;
+    right: 0;
+}
+

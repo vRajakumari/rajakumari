@@ -1,0 +1,39 @@
+.form{
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+ }
+ .form h2{
+     line-height: 3;
+     margin-top: 0;
+     background-color:rgb(180, 134, 224);
+     color: white;
+ }
+ input{
+     width: 330px;
+     height: 30px;
+     color: rgb(218, 195, 195);
+     border: 1px solid rgb(228, 220, 220);
+     margin: 15px;
+     padding-left: 20px;
+ }
+ .abc{
+    font-size :15px;
+    background-color: blueviolet;
+}
+.form p{
+    color: grey;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}  
+ .abc button{
+    color: grey;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    align-items: center;
+}
+ 

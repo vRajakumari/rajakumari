@@ -1,0 +1,57 @@
+.form{
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+ }
+ .form h3{
+     line-height: 3;
+     margin-top: 0;
+     background-color:rgb(180, 134, 224);
+     color: white;
+ }
+ input{
+     width: 330px;
+     height: 30px;
+     color: rgb(218, 195, 195);
+     border: 1px solid rgb(228, 220, 220);
+     margin: 15px;
+     padding-left: 20px;
+ }
+ .form0{
+    margin-top: 0%;
+ }
+ .lable{
+    color: white;
+    font-size: 17px;
+    bottom: 68px;
+    position:absolute;
+ }
+ .all{
+    padding-left: 0px;
+    margin: 0px;
+    color: gray;
+ }
+ .form-1 h3{
+     border-radius: 7px;
+     width: 350px;
+     height: 20px;
+     color: white;
+     background-color:rgb(154, 61, 241);
+     padding-bottom: 25px;
+     margin-top: 10px;
+ }
+ .form-1 p{
+     color: grey;
+     font-size: 1.2rem;
+     margin-top: 30px;
+ }
+ .form-1 a{
+     color:rgb(56, 55, 55);
+     text-decoration: none;
+     margin-top: 10px;
+     font-size: 1.2rem;
+ }
